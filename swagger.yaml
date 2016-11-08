@@ -8,7 +8,6 @@ info:
 schemes:
   - https
 host: ec2-54-191-103-8.us-west-2.compute.amazonaws.com
-basePath: /openapi101
 
 paths: 
   /collections:
