@@ -11,7 +11,7 @@ host: ec2-54-191-103-8.us-west-2.compute.amazonaws.com
 
 paths: 
   /collections:
-     get:
+    get:
       summary: Gets collections
       description: Returns a list containing all collections
       responses:
@@ -29,7 +29,7 @@ paths:
                   type: string
                 order_no:
                   type: string
-     post:
+    post:
       summary: Creates a collection
       description: Adds a new collection.
       parameters:
